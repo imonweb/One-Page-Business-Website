@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/imonweb/One-Page-Business-Website#readme",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
   },
