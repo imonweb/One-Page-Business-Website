@@ -1,0 +1,39 @@
+{
+  "name": "One-Page-Business-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imonweb/One-Page-Business-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imonweb/One-Page-Business-Website/issues"
+  },
+  "homepage": "https://github.com/imonweb/One-Page-Business-Website#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "css-loader": "^5.2.0",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.2.0",
+    "postcss-mixins": "^7.0.3",
+    "postcss-nested": "^5.0.5",
+    "postcss-simple-vars": "^6.0.3",
+    "postcss-vars": "^0.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
