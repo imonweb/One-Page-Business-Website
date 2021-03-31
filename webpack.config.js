@@ -1,12 +1,5 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require('path')
-
-const postCSSPlugins = [
-  require('postcss-import'),
-  require('postcss-mixins'),
-  require('postcss-simple-vars'),
-  require('postcss-nested'),
-  require('autoprefixer')
-]
 
 module.exports = {
   entry: './app/assets/scripts/App.js',
@@ -15,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'app')
   },
   devServer: {
-    before:function(app, server){
+    before: function(app, server){
       server._watch('./app/**/*.html')
     },
     contentBase: path.join(__dirname, 'app'),
@@ -23,11 +16,21 @@ module.exports = {
     port: 3000
   },
   mode: 'development',
-  watch: true,
+  
+
   module: {
-    rules: [{
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader?url=false', {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
-    }]
-  }
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+   title: "WebPack Fundamentals"
+ })
+
+  ]
 }
