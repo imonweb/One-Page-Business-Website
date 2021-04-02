@@ -1,4 +1,8 @@
-import '../styles/styles.css'
+import 'bootstrap'
+import $ from 'jquery';
+
+import '../styles/styles.scss'
+ 
 
 if(module.hot){
   module.hot.accept()

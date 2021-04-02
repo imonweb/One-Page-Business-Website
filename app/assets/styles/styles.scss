@@ -1,6 +1,8 @@
 @import 'normalize.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'base/_variables';
 
 body {
   background-color:$salmon;
+  color:rgb(225, 226, 225);
 }
