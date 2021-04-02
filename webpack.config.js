@@ -38,7 +38,7 @@ module.exports = {
       }
     ]
   },
-  devtool: false,
+  devtool: 'inline-source-map',
   plugins: [
     new MiniCssExtractPlugin(),
     new webpack.ProvidePlugin({

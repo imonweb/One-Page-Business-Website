@@ -1,8 +1,6 @@
 @import 'normalize.css';
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'base/_global';
 @import 'base/_variables';
-
-body {
-  background-color:$salmon;
-  color:rgb(225, 226, 225);
-}
+@import 'modules/_home';
+@import 'modules/_header';
