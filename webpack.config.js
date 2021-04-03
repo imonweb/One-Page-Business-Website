@@ -34,8 +34,12 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader',  'sass-loader', {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
       },
       {
-        test: /bootstrap\/dist\/js\/umd\//, use: 'imports-loader?jQuery=jquery'
-      }
+        test: /bootstrap\/dist\/js\/umd\//, 
+        use: 'imports-loader?jQuery=jquery'
+      },
+      
+        { test: /\.(png|woff|woff2|eot|ttf|svg)(\?|$)/, use: 'url-loader?limit=100000' },
+    
     ]
   },
   devtool: 'inline-source-map',
