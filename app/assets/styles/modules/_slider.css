@@ -14,14 +14,20 @@ li.img1
     height: 710px;
     width:100%;
     color: #f3f3f3;
-     text-align: center;
+    text-align: center;
+    
   
+}
+
+h2.headline {
+    margin-top: 230px;
+    position: inherit;
 }
   
 .slider h2
 {
     font-weight: bold;
-    margin-top:270px;
+    margin-top:0px;
 }
 
 
