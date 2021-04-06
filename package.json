@@ -2,11 +2,10 @@
   "name": "One-Page-Business-Website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve",
-    "build": "webpack"
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -21,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "autoprefixer": "^10.2.5",
     "bootstrap": "^4.6.0",
+    "caroufredsel": "^6.2.1",
     "css-loader": "^5.2.0",
     "font-awesome": "^4.7.0",
     "font-awesome-loader": "^1.0.2",

@@ -1,8 +1,6 @@
 @import 'normalize.css';
 @import 'bootstrap/dist/css/bootstrap.min.css';
-/*  @import 'slickfix';
-@import "slick-carousel/slick/slick";
-@import "slick-carousel/slick/slick-theme"; */
+ 
 @import 'base/_global';
 @import 'base/_variables';
 @import 'modules/_home';
@@ -13,3 +11,4 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/regular';
+

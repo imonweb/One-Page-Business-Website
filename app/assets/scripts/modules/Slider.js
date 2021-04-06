@@ -1,28 +1,9 @@
+
  
-class Slider {
+require('caroufredsel')
 
-  
-
-}
-
-/*
-$('#carousel .item img').each(function() {
-  var imgSrc = $(this).attr('src');
-  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
-  $(this).remove();
-});
-*/
-
-/*
-$('#carousel .item img').each(function() {
-  var imgSrc = $(this).attr('src');
-  $(this).parent().css({'background-image': 'url('+imgSrc+')'});
-  $(this).remove();
-});
-*/
-/*
-jQuery(document).ready(function(){
-
+ window.carouFredSel = require('caroufredsel');
+ 
   "use strict";
   $('#slider-carousel').carouFredSel({
       responsive: true,
@@ -47,7 +28,5 @@ jQuery(document).ready(function(){
         pageAnchorBuilder: false
       }
   });
-});
+ 
 
-*/
-export default Slider
